@@ -1,0 +1,66 @@
+/* Importa fontes personalizadas do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Define o estilo básico para o conteúdo, usando a fonte "Lora" */
+.content{
+    font-family: "Lora", serif; /* Aplica a fonte "Lora" ao texto dentro do container com a classe "content" */
+}
+  
+/* Estilo do container principal para centralizar o conteúdo */
+.content{
+    display: flex; /* Define um layout flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    align-content: center; /* Alinha as linhas do conteúdo no centro (útil para múltiplas linhas de conteúdo) */
+    width: 100%; /* Largura de 100% do elemento pai */
+    height: 100vh; /* Altura igual à altura total da janela de visualização */
+}
+
+/* Estilo do card principal */
+.card{
+    background: #121212; /* Define a cor de fundo como um cinza escuro */
+    border-radius: 20px; /* Bordas arredondadas com raio de 20px */
+    box-shadow: 0px 2px 23px #2b06066b; /* Sombra com desfoque e opacidade */
+    width: 400px; /* Largura fixa de 400px */
+}
+
+/* Estilo da parte visual (imagem) do card */
+.mediaCard{
+    background: url(https://i.pinimg.com/564x/23/1f/da/231fda735c79111fb3b77ec0feb69170.jpg) center/cover; /* Define a imagem de fundo centralizada e ajustada à área */
+    height: 400px; /* Altura fixa de 400px */
+    width: 100%; /* Largura de 100% do card */
+}
+
+/* Estilo do título */
+.title{
+    color: #ffffff; /* Cor branca para o texto */
+}
+
+/* Estilo do texto secundário */
+.secondText{
+    color: #ffffff; /* Cor branca para o texto */
+}
+
+/* Estilo do texto inferior */
+.bottomText{
+    color: #dba062; /* Cor dourada suave para o texto */
+}
+
+/* Estilo da parte superior do card (área com padding) */
+.topCard{
+    padding: 20px; /* Espaçamento interno de 20px */
+    padding-top: 0px; /* Remove o espaçamento interno superior */
+}
+
+/* Estilo da parte inferior do card */
+.bottomCard{
+    padding: 20px; /* Espaçamento interno de 20px */
+}
+
+/* Estilo dos botões de ação no card */
+.actions{
+    background: none; /* Remove o fundo do botão */
+    border: none; /* Remove a borda do botão */
+    color: #ffffff; /* Define a cor branca para o texto */
+    cursor: pointer; /* Altera o cursor para uma mãozinha ao passar sobre o botão */
+}
